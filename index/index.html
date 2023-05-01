@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIAJEROS</title>
+  <link rel="stylesheet" href="">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <style>
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index2.html">Viajes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="navbar-nav__item">
+            <a class="nav-link" href="#">Personas</a>
+          </li>
+          <li class="nav-item__item">
+            <a class="nav-link" href="#">Negocios</a>
+          </li>
+          <li class="nav-item__item">
+            <a class="nav-link" href="#">Empresas</a>
+          </li>
+
+          <li class="nav-item__item">
+            <a class="nav-link" href="">Institucional</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: red" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd5_4gTRy5LukaFw--XJQOkTUy-JIVbclHTw&usqp=CAU"
+          alt="" width="30" height="24" class="d-inline-block align-text-top" />VIAJEROS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Soporte</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://blog.marivalresorts.com/media/uploads/2020/04/6.-Ven-con-amigos-1.jpg" class="d-block w-100"
+            alt="..." width="1700" height="520" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>MAR</h5>
+            <p>
+              Estás a punto de descubrir algunas de las ventajas de ir a la
+              playa para tu salud.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.travesiasdigital.com/2020/02/ganapathy-kumar-L75D18aVal8-unsplash-e1582657606998.jpg"
+            class="d-block w-100" alt="..." width="1700" height="520" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>DESIERTO</h5>
+            <p>
+              Más de la mitad del territorio mexicano se encuentra cubierto
+              por desiertos: el de Chihuahua, el de Sonora, y el
+              bajacaliforniano. En ellos es posible encontrar una oferta
+              gastronómica y cultural que suele ser subestimada.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://blog.trip-peru.com/wp-content/uploads/2020/01/navegar-por-el-rio-amazonas.jpg"
+            class="d-block w-100" alt="..." width="1700" height="520" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>SELVA</h5>
+            <p>
+              el Río Amazonas, el más caudaloso del mundo. Navegar por este
+              río es una experiencia única que te llena de energía y
+              vitalidad. Además, podrás descubrir hermosos paisajes, lagos
+              espejos y disfrutar del canto de miles de animales.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container mt-3 mb-2">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">Hola ¿Que quieres hacer hoy?</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_DZYmKgltppr-AQCYw4a3p3unatYfn6uUUQ&usqp=CAU"
+            class="card-img-top" alt="..." height="150px" />
+          <div class="card-body">
+            <h5>Elige tu destino</h5>
+            <pclass="card-text">Facil y rapido con solo un click los mejores destinos.</p>
+              <a href="#" class="btn btn-primary">Comienza aqui</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy5gvbF6KjYWkZUYeHNRosmWWZNcg05gTEQQ&usqp=CAU"
+            class="card-img-top" alt="..." height="150px" />
+          <div class="card-body">
+            <h5>Realiza el pago</h5>
+            <p class="card-text">Compra, paga y separa tu viaje desde donde estés.</p>
+            <a href="#" class="btn btn-primary">Realiza aqui tu pago</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROS3xnNCA0Aoe39T-QFd4ysdSDpFqtxlO5pA&usqp=CAU"
+            class="card-img-top" alt="..." height="150px" />
+          <div class="card-body">
+            <h5 class="card-title">Servicios de viaje</h5>
+            <p class="card-text">
+              Acompañamiento medico y legal en todo momento.
+            </p>
+            <a href="#" class="btn btn-primary">Más información</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmHFttKU6oR-Ko9Le8iBEtg_GV1xnPOE_3_g&usqp=CAU"
+            class="card-img-top" alt="..." height="150px" />
+          <div class="card-body">
+            <h5 class="card-title">Guias turisticos</h5>
+            <p class="card-text">
+              Guias especializados en sitios de interes y cultura.
+            </p>
+            <a href="#" class="btn btn-primary">Conocelos aqui</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiUNrS1nVyPvLFkQ4GkKilirV1AXVZV7Yu7g&usqp=CAU"
+            class="card-img-top" alt="..." height="150px" />
+          <div class="card-body">
+            <h5 class="card-title">Otras alternativas</h5>
+            <p class="card-text">
+              Conoce nuestros mejores planes y presupuestos
+            </p>
+            <a href="" class="btn btn-primary">Para tí</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.onscroll = function () { myFunction() };
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
